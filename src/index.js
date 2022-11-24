@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import {View, TextInput, Button, Text, FlatList, Modal, TouchableOpacity } from 'react-native';
-import { styles } from '../styles';
+import { styles } from './styles'
 import { AddItem, TaskItem } from './components/index';
 
 

@@ -1,19 +1,5 @@
-import React from "react";
-import { View, TextInput, Button } from 'react-native'
-import {styles} from './styles';
-
-const AddItem= ({ task, onHandleTask, onHandleChange}) => {
-    return(
-      <View style={styles.inputContainer}>
-      <TextInput 
-        style={styles.input}
-        value={task}
-        placeholder="Agregar Item"
-        onChangeText={onHandleChange}
-      />
-      <Button disabled={!task} title='Add' color='#9A848F' onPress={onHandleTask} />
-      </View>
-    )
-}
-
+export { default as AddItem } from './addAddItem/index';
+export { default as CharacterItem } from './input/characterItem/index';
+export { default as CharacterList } from './input/list/index';
+export { default as CharacterDestiny } from './modal/index'
 export default AddItem;

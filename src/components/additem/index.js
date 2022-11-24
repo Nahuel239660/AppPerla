@@ -3,7 +3,7 @@ import { Button, TextInput, View } from 'react-native'
 import React from "react";
 import {styles} from './styles';
 
-const AddCharacter = ({ task, onHandleTask, onHandleChange}) => {
+const AddItem = ({ task, onHandleTask, onHandleChange}) => {
     return(
       <View style={styles.inputContainer}>
       <TextInput 
@@ -17,5 +17,5 @@ const AddCharacter = ({ task, onHandleTask, onHandleChange}) => {
     )
 }
 
-export default AddCharacter;
+export default AddItem;
 

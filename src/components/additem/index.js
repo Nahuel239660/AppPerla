@@ -1,8 +1,9 @@
+import { Button, TextInput, View } from 'react-native'
+
 import React from "react";
-import { View, TextInput, Button } from 'react-native'
 import {styles} from './styles';
 
-const AddItem= ({ task, onHandleTask, onHandleChange}) => {
+const AddCharacter = ({ task, onHandleTask, onHandleChange}) => {
     return(
       <View style={styles.inputContainer}>
       <TextInput 
@@ -11,9 +12,10 @@ const AddItem= ({ task, onHandleTask, onHandleChange}) => {
         placeholder="Agregar Item"
         onChangeText={onHandleChange}
       />
-      <Button disabled={!task} title='Add' color='#9A848F' onPress={onHandleTask} />
+      <Button disabled={!task} title='Agregar' color='#9A848F' onPress={onHandleTask} />
       </View>
     )
 }
 
-export default AddItem;
+export default AddCharacter;
+

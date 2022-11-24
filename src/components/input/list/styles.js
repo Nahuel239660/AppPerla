@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     },
     listTitle: {
         fontSize: 25,
-        color: '#960396',
+        color: '#6d6875',
         justifyContent: 'center',
       },
-    })
+})

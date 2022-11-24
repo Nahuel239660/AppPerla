@@ -18,4 +18,4 @@ export const styles = StyleSheet.create({
           justifyContent: 'center',
           marginVertical: 5,
       },
-    })
+})

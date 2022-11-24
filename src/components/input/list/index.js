@@ -1,5 +1,6 @@
-import React from "react";
 import { FlatList, Text, View, } from "react-native";
+
+import React from "react";
 import {styles} from './styles';
 
 const CharacterList = ({ taskList, renderItem }) => {
@@ -7,7 +8,7 @@ const CharacterList = ({ taskList, renderItem }) => {
     
         <View>
             <View style={styles.listContainer}>
-                <Text style={styles.listTitle}>Characters</Text>
+                <Text style={styles.listTitle}>Items</Text>
             </View>
             <FlatList
             style={styles.listContainer}
@@ -20,4 +21,4 @@ const CharacterList = ({ taskList, renderItem }) => {
     )
 }
 
-export default CharacterList;
+export default CharacterList; 
